@@ -1,0 +1,50 @@
+:root {
+  --rosa: #f78cc7;
+  --magenta: #e60e42;
+  --azulPetroleo: #043b38;
+    --negro: #00090f;
+  --blanco: #ecf5fb;
+  --grisClaro: #57656c;
+  --grisOscuro: #23333b;
+  --ambar: #ffbf00;
+  --verdeNeon: #14FF00;
+  --verdeExito: #2ecc71;
+
+}
+
+/* Fuente */
+body{
+  font-family: "Poppins", sans-serif;
+  color: var(--blanco);   
+}
+
+h1, h2 {
+  font-weight: 700;
+}
+
+h3, h4 {
+font-weight: 500; 
+}
+
+strong {
+  font-weight: 700;
+}
+
+/* ------------------------------ */
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;
+}
+
+.titulo {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}

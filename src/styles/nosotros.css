@@ -1,0 +1,97 @@
+:root {
+  --rosa: #f78cc7;
+  --magenta: #e60e42;
+  --azulPetroleo: #043b38;
+  --negro: #00090f;
+  --blanco: #ecf5fb;
+  --grisClaro: #57656c;
+  --grisOscuro: #23333b;
+  --ambar: #ffbf00;
+  --verdeNeon: #14ff00;
+  --verdeExito: #2ecc71;
+}
+
+#nosotros p {
+  text-align: justify;
+}
+
+.cardNosotros {
+  border-color: var(--verdeExito);
+  color: var(--ambar);
+  text-align: center;
+  box-shadow: 5px 5px 10px var(--azulPetroleo);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.imgCardNosotros {
+  width: 80px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: var(--azulPetroleo);
+}
+
+.cardNosotros:hover {
+  transform: scale(1.15);
+  box-shadow: 3px 3px 20px var(--verdeExito);
+  overflow: hidden;
+}
+
+.nameCardNosotros {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 60%;
+  font-size: medium;
+}
+
+.iconoCard {
+  color: var(--verdeExito);
+  position: relative;
+  transition: transform 0.3s ease;
+  z-index: 1;
+}
+
+.iconoCard:hover {
+  color: var(--verdeNeon);
+  transition: 600ms;
+  transform: scale(1.5);
+}
+
+.boton-volver-inicio {
+  margin-top: 10px;
+  width: 60%;
+  max-width: 180px;
+  padding: 6px 14px;
+  font-size: 0.9rem;
+  color: var(--blanco);
+  border: 2px solid var(--verdeNeon);
+  box-shadow: 1px 1px 10px var(--verdeNeon);
+  background-color: rgba(0, 23, 34, 0.4);
+  transition: all 0.3s ease;
+}
+
+.boton-volver-inicio:hover {
+  background-color: var(--azulPetroleo);
+  color: var(--blanco);
+  border: 2px solid var(--ambar);
+  box-shadow: 1px 1px 10px var(--ambar);
+}
+
+.h2Nosotros {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 20px;
+  color: var(--ambar);
+}
+
+.marca {
+  color: var(--verdeNeon);
+}

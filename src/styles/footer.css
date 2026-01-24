@@ -1,0 +1,80 @@
+:root {
+  --rosa: #f78cc7;
+  --magenta: #e60e42;
+  --azulPetroleo: #043b38;
+  --negro: #00090f;
+  --blanco: #ecf5fb;
+  --grisClaro: #57656c;
+  --grisOscuro: #23333b;
+  --ambar: #ffbf00;
+  --verdeNeon: #14ff00;
+  --verdeExito: #2ecc71;
+}
+
+.links-section {
+    background-color: var(--negro);
+    font-size: 0.9rem;
+}
+
+.social-icons i {
+    font-size: 1.5rem;
+    color: var(--blanco);
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.social-icons i:hover {
+    color: var(--verdeNeon);
+}
+
+.titulos-redes {
+    color: var(--ambar);
+}
+
+/* --- BOTÓN FLOTANTE WHATSAPP --- */
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: transform 0.3s;
+}
+
+.whatsapp-float:hover {
+    transform: translateY(-3px);
+    color: white;
+    background-color: #20b857;
+}
+
+.whatsapp-float i {
+    font-size: 1.2rem;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .teacher-img {
+        max-height: 250px;
+        margin-bottom: 20px;
+    }
+    
+    .teacher-section {
+        text-align: center;
+    }
+
+    .whatsapp-float {
+        bottom: 10px;
+        right: 10px;
+        padding: 8px 15px;
+        font-size: 0.9rem;
+    }
+}

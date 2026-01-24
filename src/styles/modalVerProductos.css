@@ -1,0 +1,13 @@
+/* Achicar el modal de Ver Producto */
+.modal-dialog.modal-ver-producto {
+  max-width: 260px !important; /* ancho del modal */
+  width: 260px !important;
+  margin: auto;
+}
+
+.modal-dialog.modal-ver-producto .modal-content {
+  border-radius: 10px;
+  padding: 10px;
+}
+
+

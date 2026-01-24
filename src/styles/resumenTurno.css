@@ -1,0 +1,40 @@
+:root {
+  --rosa: #f78cc7;
+  --magenta: #e60e42;
+  --azulPetroleo: #043b38;
+  --negro: #00090f;
+  --blanco: #ecf5fb;
+  --grisClaro: #57656c;
+  --grisOscuro: #23333b;
+  --ambar: #ffbf00;
+  --verdeNeon: #14ff00;
+  --verdeExito: #2ecc71;
+}
+
+button.boton-cancelar-turno {
+  padding: 8px 20px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: white;
+  border: 2px solid white;
+  background-color: transparent;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+button.boton-cancelar-turno:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+  color: black;
+  border-color: white;
+}
+.card-resumen-turno {
+  border: 3px solid #e0e0e0; /* borde más grueso */
+  border-radius: 12px;        /* opcional, más redondeo */
+}
+
+.fondo-azul-transparente {
+  background-color: var(--azulPetroleo); 
+  border-radius: 12px;
+  padding: 15px;
+  backdrop-filter: blur(2px); /* efecto vidriado muy leve */
+}

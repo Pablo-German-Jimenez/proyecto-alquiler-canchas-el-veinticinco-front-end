@@ -1,0 +1,79 @@
+/* NAVBAR OSCURO */
+.navbar-oscuro {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 16px; /*  Mucho más seguro */
+  background-color: rgb(20, 20, 20);
+  color: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+  flex-wrap: wrap; /*  Evita desbordes */
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+/* LOGO */
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo-icon {
+  font-size: 1.6rem;
+}
+
+.logo-text {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+/* nuevo logo de Dibu */
+.logo-img {
+  height: 60px;
+  width: auto;
+  object-fit: contain;
+  box-shadow: 50 50px 50px rgb(17, 17, 17);
+}
+
+/* LINKS */
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 18px; /*  más chico */
+  flex-wrap: wrap; /*  permite que bajen si no entran */
+}
+
+.nav-item,
+.nav-link-light {
+  color: var(--blanco);
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: 0.3s ease;
+}
+
+/* SUBRAYADO */
+.nav-item:hover,
+.nav-link-light:hover,
+.nav-item.active,
+.nav-link-light.active {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 576px) {
+  .navbar-oscuro {
+    padding: 8px 10px; /*  mini-navbar */
+  }
+
+  .logo-text {
+    font-size: 1.1rem;
+  }
+
+  .nav-links {
+    gap: 10px; /* más chico aún */
+  }
+}

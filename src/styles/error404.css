@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Zilla+Slab:wght@700&display=swap');
+.error-container {
+  height: 68vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 20px;
+}
+
+.error-title {
+  font-family: 'Zilla Slab', serif;
+  font-size: 4rem;
+  line-height: 0.9;
+  margin-bottom: 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.error-subtitle {
+  font-family: 'Arial', sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  font-weight: 400;
+  opacity: 0.9;
+}
+
+.error-text {
+  font-family: 'Arial', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 50px;
+  max-width: 500px;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+  
+}
+
+.boton-volver-inicio {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;       /* para evitar salto de línea dentro del botón */
+  width: auto;                  
+  min-width: 160px;   
+  font-size: 0.95rem;
+  color: var(--blanco);
+  border: 2px solid var(--verdeNeon);
+  box-shadow: 1px 1px 10px var(--verdeNeon);
+  background-color: rgba(0, 23, 34, 0.4);
+  transition: all 0.25s ease;
+}
+
+.boton-volver-inicio:hover {
+  background-color: var(--azulPetroleo);
+  color: var(--blanco);
+  border: 2px solid var(--ambar);
+  box-shadow: 1px 1px 10px var(--ambar);
+}
+
+@media (max-width: 768px) {
+  .error-title {
+    font-size: 5rem;
+  }
+  .error-subtitle {
+    font-size: 1rem;
+  }
+}

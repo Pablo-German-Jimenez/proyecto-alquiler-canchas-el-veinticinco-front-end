@@ -1,0 +1,21 @@
+.img-card1-ellas {
+  object-fit: cover;           /* mantiene proporción y llena el contenedor */
+  object-position: center 10%; /* mueve la imagen hacia abajo */
+}
+
+.botonComprar {
+  color: white; 
+  border: 2px solid white;
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+
+.botonComprar:hover {
+  background-color: rgba(255, 255, 255, 0.25); 
+  color: black; 
+  border-color: white;
+}
+
+.texto-ambar{
+  color: var(--ambar);
+}

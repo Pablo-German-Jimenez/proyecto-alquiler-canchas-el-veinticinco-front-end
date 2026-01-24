@@ -1,0 +1,20 @@
+.modal-turno-borde .modal-content {
+  border: 2px solid white;
+  border-radius: 14px !important;
+}
+
+.sin-borde {
+  box-shadow: none !important;
+  border-color: #ced4da !important;
+}
+
+.mensaje-error {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 3px;
+}
+
+.swal-turno {
+  text-align: left;
+  font-size: 1rem;
+}

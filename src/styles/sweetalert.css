@@ -1,0 +1,62 @@
+/* El fondo del cartel */
+.swal-popup-custom {
+    background-color: #212529 !important; 
+    color: #f8f9fa !important;            
+    border: 1px solid #495057;           
+    border-radius: 15px !important;
+}
+
+/* El título */
+.swal2-title {
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 600 !important;
+    color: #ffffff !important;
+}
+
+/* El texto del cuerpo */
+.swal2-html-container {
+    color: #ced4da !important;
+}
+
+/* Botón de Confirmar */
+.btn-swal-confirm {
+    background-color: #198754 !important; 
+    color: white !important;
+    font-weight: bold !important;
+    padding: 10px 25px !important;
+    border-radius: 50px !important;
+    border: none !important;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    margin: 0 10px !important;
+}
+
+.btn-swal-confirm:hover {
+    background-color: #157347 !important;
+    transform: scale(1.05);
+}
+
+/* Botón de Cancelar (Rojo) */
+.btn-swal-cancel {
+    background-color: #dc3545 !important; 
+    color: white !important;
+    font-weight: bold !important;
+    padding: 10px 25px !important;
+    border-radius: 50px !important;
+    border: none !important;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    margin: 0 10px !important;
+}
+
+.btn-swal-cancel:hover {
+    background-color: #bb2d3b !important;
+    transform: scale(1.05);
+}
+
+/* Iconos animados */
+.swal2-success-ring {
+    border-color: #198754 !important;
+}
+.swal2-icon.swal2-warning {
+    border-color: #ffc107 !important;
+    color: #ffc107 !important;
+}
