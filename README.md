@@ -1,4 +1,4 @@
-# ⚽ Cancheros
+# ⚽ El Veinticinco
 
 **Cancheros** es una plataforma deportiva que combina información de canchas y complejos con un e-commerce completo de indumentaria y accesorios.  
 Permite navegar, informarse y comprar en un solo lugar, con una interfaz moderna e intuitiva.
@@ -69,19 +69,14 @@ npm install
 npm run dev
 ```
 ---
-## 👥 Autores  
 
-Este proyecto fue desarrollado por un talentoso equipo:  
+✨ Author
+Created by Pablo Germán Jiménez
+Design inspired by 💥 hip-hop vibes from Bboy Linkin
 
-- [LEDESMA PADILLA, José Ignacio](https://github.com/ledesmapadilla)
+###### [Access to profile GitHub](https://github.com/Pablo-German-Jimenez)💻
+###### [Access to profile Linkedin](https://www.linkedin.com/in/pablo-german-jimenez-0b706a200/)📊
 
-- [CABANA, Paula](https://github.com/TaliCabana) 
+#💥 Breaker-boy for ever🎵 
 
-- [GUERRERO, Maximiliano](https://github.com/maxiguerrero767)
-
-- [JIMENEZ, Germán](https://github.com/Pablo-German-Jimenez)
-
-- [ALBORNOZ, Joaquín](https://github.com/JQNPro10)
-
----
-
+ ![🔥#Bboys on fire 🎵 ](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExeG11M2dtOHdnYWUxN3N6NTFoZ2t5Z24xcmV5djJjcjI4ODlyZ3duZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ANFZtmUiXncuUmKMwY/giphy.gif)
