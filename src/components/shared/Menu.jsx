@@ -1,7 +1,7 @@
 import "../../styles/menu.css";
 import { Link } from "react-router-dom";
 import "bootstrap-icons/font/bootstrap-icons.css";
-import logoDibuNeon17 from "../../img/logoDibuNeon17.png";
+import dibuSupersayayin from "../../assets/videos/dibuSuperSayayinJugandoAlVeintiCincoRePro.mp4";
 
 const Menu = ({
   isAdmin,
@@ -16,11 +16,12 @@ const Menu = ({
         {/* Logo */}
         <Link to="/" className="text-decoration-none">
           <div className="logo-container">
-            <img
-              src={logoDibuNeon17}
-              alt="logo cancheros"
-              className="logo-img"
-            />
+            <video
+            autoPlay loop muted playsInline
+              src={dibuSupersayayin}
+              alt="logo dibuJugando Al Veinticinco RePro"
+              className="logo-img rounded-circle"
+            />  
           </div>
         </Link>
 

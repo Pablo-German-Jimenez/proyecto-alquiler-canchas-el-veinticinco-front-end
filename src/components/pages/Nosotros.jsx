@@ -1,9 +1,5 @@
 import { Container, Card, Row, Col, Button } from "react-bootstrap";
-import PaulaCabana from "../../img/PaulaCabana.jpg";
-import MaximilianoGuerrero from "../../img/MaximilianoGuerrero.jpg";
-import IgnacioLedesma from "../../img/IgnacioLedesma.jpg";
-import GermanJimenez from "../../img/GermanJimenez.jpg";
-import JoaquinAlbornoz from "../../img/JoaquinAlbornoz.jpg";
+import devBreakerBoyLinkinStylePro from "../../img/dev.BreakerBoyLinkinStylePro.jpg";
 import "../../styles/nosotros.css";
 import { Link } from "react-router-dom";
 
@@ -11,7 +7,7 @@ const Nosotros = () => {
   return (
     <section id="nosotros" className="container">
       <h2 className="text-center h2Nosotros mt-5 mb-3 mx-3">
-        ⚽ Cancheros: El Punto de Encuentro del Deporte y la Pasión
+        ⚽ El Veinticinco: El Punto de Encuentro del Deporte y la Pasión
       </h2>
 
       <p>
@@ -98,82 +94,15 @@ const Nosotros = () => {
       </section>
       <Container className="mb-3">
         <Row className="row-gap-3 justify-content-center">
-          {/*Nacho*/}
+       
+          {/*dev.BreakerBoyLinkinPro*/}
           <Col xs={10} md={5} lg={2}>
             <Card className="cardNosotros h-100">
               <Card.Img
                 variant="top"
                 className="imgCardNosotros mt-3"
-                src={IgnacioLedesma}
-                alt="José Ignacio Ledesma Padilla"
-              />
-              <Card.Body>
-                <Card.Title className="nameCardNosotros">
-                  Ignacio Ledesma
-                </Card.Title>
-                <Row>
-                  <Col xs={6} className="text-center">
-                    <a
-                      href="https://github.com/ledesmapadilla"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <i className="bi bi-github iconoCard"></i>
-                    </a>
-                  </Col>
-                  <Col xs={6} className="text-center">
-                    <a href="*" target="_blank" rel="noopener noreferrer">
-                      <i className="bi bi-linkedin iconoCard"></i>
-                    </a>
-                  </Col>
-                </Row>
-              </Card.Body>
-            </Card>
-          </Col>
-          {/*Tali*/}
-          <Col xs={10} md={5} lg={2}>
-            <Card className="cardNosotros h-100">
-              <Card.Img
-                variant="top"
-                className="imgCardNosotros mt-3"
-                src={PaulaCabana}
-                alt="Tali Cabana"
-              />
-              <Card.Body>
-                <Card.Title className="nameCardNosotros">
-                  Paula Cabana
-                </Card.Title>
-                <Row>
-                  <Col xs={6} className="text-center">
-                    <a
-                      href="https://github.com/TaliCabana"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <i className="bi bi-github iconoCard"></i>
-                    </a>
-                  </Col>
-                  <Col xs={6} className="text-center">
-                    <a
-                      href="https://www.linkedin.com/in/paula-cabana-ingenieraindustrial/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <i className="bi bi-linkedin iconoCard"></i>
-                    </a>
-                  </Col>
-                </Row>
-              </Card.Body>
-            </Card>
-          </Col>
-          {/*Germán*/}
-          <Col xs={10} md={5} lg={2}>
-            <Card className="cardNosotros h-100">
-              <Card.Img
-                variant="top"
-                className="imgCardNosotros mt-3"
-                src={GermanJimenez}
-                alt="Germán Jimenez"
+                src={devBreakerBoyLinkinStylePro}
+                alt="dev.BreakerBoyLinkinPro"
               />
               <Card.Body>
                 <Card.Title className="nameCardNosotros">
@@ -195,70 +124,6 @@ const Nosotros = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <i className="bi bi-linkedin iconoCard"></i>
-                    </a>
-                  </Col>
-                </Row>
-              </Card.Body>
-            </Card>
-          </Col>
-          {/*Maxi*/}
-          <Col xs={10} md={5} lg={2}>
-            <Card className="cardNosotros h-100">
-              <Card.Img
-                variant="top"
-                className="imgCardNosotros mt-3"
-                src={MaximilianoGuerrero}
-                alt="Maxi Guerrero"
-              />
-              <Card.Body>
-                <Card.Title className="nameCardNosotros">
-                  Maximiliano Guerrero
-                </Card.Title>
-                <Row>
-                  <Col xs={6} className="text-center">
-                    <a
-                      href="https://github.com/maxiguerrero767"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <i className="bi bi-github iconoCard"></i>
-                    </a>
-                  </Col>
-                  <Col xs={6} className="text-center">
-                    <a href="*" target="_blank" rel="noopener noreferrer">
-                      <i className="bi bi-linkedin iconoCard"></i>
-                    </a>
-                  </Col>
-                </Row>
-              </Card.Body>
-            </Card>
-          </Col>
-          {/*Joaquín*/}
-          <Col xs={10} md={5} lg={2}>
-            <Card className="cardNosotros h-100">
-              <Card.Img
-                variant="top"
-                className="imgCardNosotros mt-3"
-                src={JoaquinAlbornoz}
-                alt="Joaquín Albornoz"
-              />
-              <Card.Body>
-                <Card.Title className="nameCardNosotros">
-                  Joaquín Albornoz
-                </Card.Title>
-                <Row>
-                  <Col xs={6} className="text-center">
-                    <a
-                      href="https://github.com/JQNPro10"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <i className="bi bi-github iconoCard"></i>
-                    </a>
-                  </Col>
-                  <Col xs={6} className="text-center">
-                    <a href="*" target="_blank" rel="noopener noreferrer">
                       <i className="bi bi-linkedin iconoCard"></i>
                     </a>
                   </Col>
