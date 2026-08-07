@@ -1,4 +1,4 @@
-# ⚽ Cancheros - El Veinticinco
+# ⚽ - El Veinticinco
 
 **Cancheros** es una plataforma integral para deportistas que combina la gestión de turnos en complejos de fútbol con un e-commerce especializado en indumentaria y accesorios. 
 
@@ -53,3 +53,16 @@ Si querés probar el proyecto en tu máquina, seguí estos pasos:
 1. **Clonar el repositorio:**
    ```bash
    git clone https://github.com/Pablo-German-Jimenez/proyecto-alquiler-canchas-el-veinticinco-front-end.git
+
+   
+✨ Author
+Created by Pablo Germán Jiménez
+Design inspired by 💥 hip-hop vibes from Bboy Linkin
+
+###### [Access to profile GitHub](https://github.com/Pablo-German-Jimenez)💻
+###### [Access to profile Linkedin](https://www.linkedin.com/in/pablo-german-jimenez-0b706a200/)📊
+
+#💥 Break-boy for ever🎵 
+
+ ![🔥#Bboys on fire 🎵 ](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExeG11M2dtOHdnYWUxN3N6NTFoZ2t5Z24xcmV5djJjcjI4ODlyZ3duZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ANFZtmUiXncuUmKMwY/giphy.gif)
+
