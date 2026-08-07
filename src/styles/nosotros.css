@@ -29,10 +29,10 @@
 }
 
 .imgCardNosotros {
-  width: 80px;
-  height: 100px;
+  width: 36%;
+  height: 50%;
   object-fit: cover;
-  border-radius: 50%;
+  border-radius: 0%;
   margin-left: auto;
   margin-right: auto;
   border-color: var(--azulPetroleo);

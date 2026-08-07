@@ -1,7 +1,7 @@
 import { Container, Card, Row, Col, Button } from "react-bootstrap";
-import devBreakerBoyLinkinStylePro from "../../img/dev.BreakerBoyLinkinStylePro.jpg";
 import "../../styles/nosotros.css";
 import { Link } from "react-router-dom";
+import devbboyLinkin from '../../../public/barron.jpg'
 
 const Nosotros = () => {
   return (
@@ -100,13 +100,13 @@ const Nosotros = () => {
             <Card className="cardNosotros h-100">
               <Card.Img
                 variant="top"
-                className="imgCardNosotros mt-3"
-                src={devBreakerBoyLinkinStylePro}
+                className="imgCardNosotros mt-1"
+                src={devbboyLinkin}
                 alt="dev.BreakerBoyLinkinPro"
               />
-              <Card.Body>
-                <Card.Title className="nameCardNosotros">
-                  Germán Jiménez
+              <Card.Body >
+                <Card.Title className="nameCardNosotros mt-4">
+                  Developer BreakBoy Pablo Germán Jiménez
                 </Card.Title>
                 <Row>
                   <Col xs={6} className="text-center">

@@ -3,7 +3,7 @@ import { Button } from 'react-bootstrap';
 
 import '../../styles/error404.css'; 
 
-import fondoImg from '../../img/404.jpeg'; 
+import fondoImg from '../../helpers/img/404.jpeg'
 
 const Error404 = () => {
   return (
