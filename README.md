@@ -1,33 +1,32 @@
 # ⚽ - El Veinticinco
 
-**Cancheros** es una plataforma integral para deportistas que combina la gestión de turnos en complejos de fútbol con un e-commerce especializado en indumentaria y accesorios. 
+EL Veinticinco is a comprehensive platform for athletes that combines sports venue booking management with a specialized e-commerce store for sport apparel and accesories.
 
-Este proyecto nació con la visión de unificar la pasión por el deporte con una experiencia de compra fluida y moderna.
+This proyect was designed to connect a passion for sports with smooth, modern shopping experience.
+---
+
+## 📝 ¿Key feature and offering?
+
+- **Sport Management:** detailed information for soccer pitches,sport facilities, and schedule management.
+- **E-commerce Full:** Online store categorized by:
+  - 🏃‍♂️ Men
+  - 🏃‍♀️ Women
+  - 🧒 Kid
+  - 🎒 Accesory
+- **User experience :** Intuitive interface, fast navigation and fully responsive design.
 
 ---
 
-## 📝 ¿Qué ofrece la plataforma?
+## 🚀 Core functionalities
 
-- **Gestión Deportiva:** Información detallada sobre canchas, complejos y organización de horarios.
-- **E-commerce Full:** Tienda online segmentada por categorías:
-  - 🏃‍♂️ Hombre
-  - 🏃‍♀️ Mujer
-  - 🧒 Niños
-  - 🎒 Accesorios
-- **Experiencia de Usuario:** Interfaz intuitiva, navegación rápida y diseño responsive.
+- **Dynamic natigation:** Built with React Router to deliver a seamless Single Page Application (SPA).
+- **Smart Catalog:** Product filtering by categories and real time availability.
+- **Adaptive design:** Layout crafted with Bootstrap to ensure optimal viewing across mobile and desktop devices.
+- **Visual Feedback:** Integrated Sweetalert2 for user notifications and interactive validations.
 
 ---
 
-## 🚀 Funcionalidades Clave
-
-- **Navegación Dinámica:** Implementación de React Router para una SPA (Single Page Application) fluida.
-- **Catálogo Inteligente:** Filtrado de productos por categorías y disponibilidad.
-- **Diseño Adaptativo:** Maquetación con Bootstrap para una visualización perfecta en móviles y desktop.
-- **Feedback Visual:** Integración de SweetAlert2 para notificaciones y validaciones de usuario.
-
----
-
-## 🛠️ Tecnologías Utilizadas
+## 🛠️ Technologies used
 
 ![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=black&style=for-the-badge)
 ![Vite](https://img.shields.io/badge/Vite-4-646CFF?logo=vite&logoColor=white&style=for-the-badge)
@@ -38,7 +37,7 @@ Este proyecto nació con la visión de unificar la pasión por el deporte con un
 
 ---
 
-## 🔗 Enlaces Útiles
+## 🔗 Useful links 
 
 [![GitHub Repo](https://img.shields.io/badge/GitHub-Repositorio-181717?logo=github&logoColor=white&style=for-the-badge)](https://github.com/Pablo-German-Jimenez/proyecto-alquiler-canchas-el-veinticinco-front-end)
 
@@ -46,11 +45,11 @@ Este proyecto nació con la visión de unificar la pasión por el deporte con un
 
 ---
 
-## 📌 Cómo ejecutar el proyecto localmente
+## 📌How to run project locally 
 
-Si querés probar el proyecto en tu máquina, seguí estos pasos:
+If you'd like to test this proyect on your local machine, follow these steps:
 
-1. **Clonar el repositorio:**
+1. **Clone repository:**
    ```bash
    git clone https://github.com/Pablo-German-Jimenez/proyecto-alquiler-canchas-el-veinticinco-front-end.git
 
